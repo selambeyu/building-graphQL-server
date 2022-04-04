@@ -1,0 +1,28 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "jone doe",
+      "age": 30,
+      "email": "jonne@gmai.com"
+    },
+    {
+      "id": "2",
+      "name": "Kebed Alemu",
+      "age": 55,
+      "email": "kebed@gmai.com"
+    },
+    {
+      "id": "3",
+      "name": "Taye balcha",
+      "age": 45,
+      "email": "taye@gmai.com"
+    },
+    {
+      "id": "4",
+      "name": "Minilik tikursewu",
+      "age": 127,
+      "email": "Minilik@gmai.com"
+    }
+  ]
+}

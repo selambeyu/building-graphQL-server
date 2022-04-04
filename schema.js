@@ -1,4 +1,5 @@
 const { type } = require("express/lib/response");
+const axios =require('axios')
 const {
   GraphQLObjectType,
   GraphQLString,
@@ -13,30 +14,7 @@ const {
 // Hard coded data
 
 const customers = [
-  {
-    id: "1",
-    name: "jone doe",
-    age: 30,
-    email: "jonne@gmai.com",
-  },
-  {
-    id: "2",
-    name: "Kebed Alemu",
-    age: 55,
-    email: "kebed@gmai.com",
-  },
-  {
-    id: "3",
-    name: "Taye balcha",
-    age: 45,
-    email: "taye@gmai.com",
-  },
-  {
-    id: "4",
-    name: "Minilik tikursewu",
-    age: 127,
-    email: "Minilik@gmai.com",
-  },
+  
 ];
 
 // Curstormer Type
@@ -61,13 +39,14 @@ const RootQuery = new GraphQLObjectType({
         id: {type: GraphQLID },
       },
       resolve(parentValue, args) {
-          console.log(parentValue,"parentValue");
-          console.log(args,"args")
-          for(let i =0 ;i<customers.length;i++){
-              if(customers[i].id==args.id){
-                  return customers[i]
-              }
-          }
+        //   console.log(parentValue,"parentValue");
+        //   console.log(args,"args")
+        //   for(let i =0 ;i<customers.length;i++){
+        //       if(customers[i].id==args.id){
+        //           return customers[i]
+        //       }
+        //   }
+        return axios.get('http://localhost:3000/customers/'+args.id).then(res=>res.data)
       },
     },
     customers:{
