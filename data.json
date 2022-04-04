@@ -7,22 +7,28 @@
       "email": "jonne@gmai.com"
     },
     {
-      "id": "2",
-      "name": "Kebed Alemu",
-      "age": 55,
-      "email": "kebed@gmai.com"
-    },
-    {
-      "id": "3",
-      "name": "Taye balcha",
-      "age": 45,
-      "email": "taye@gmai.com"
-    },
-    {
       "id": "4",
       "name": "Minilik tikursewu",
       "age": 127,
       "email": "Minilik@gmai.com"
+    },
+    {
+      "name": "Melkam Beyene",
+      "email": "melkam@gmail.com",
+      "age": 25,
+      "id": "qbS9dyb"
+    },
+    {
+      "name": "Beminet Beyene",
+      "email": "bemni@gmail.com",
+      "age": 22,
+      "id": "kfsljv4"
+    },
+    {
+      "name": "Hiwot Beyene",
+      "email": "hiwi@gmail.com",
+      "age": 20,
+      "id": "wBZdCuz"
     }
   ]
 }
