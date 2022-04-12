@@ -30,5 +30,31 @@
       "age": 20,
       "id": "wBZdCuz"
     }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "movie_name": "silanchi",
+      "duration": "2:15",
+      "rating": "3"
+    },
+    {
+      "id": "2",
+      "movie_name": "gladiator",
+      "duration": "2:15",
+      "rating": "4"
+    },
+    {
+      "id": "3",
+      "movie_name": "the forest group",
+      "duration": "2:15",
+      "rating": "5"
+    },
+    {
+      "movie_name": "avatar",
+      "duration": "3:00",
+      "id": "1y8kaY7",
+      "rating": "2"
+    }
   ]
 }
